@@ -1,6 +1,7 @@
 import argparse
 from pathlib import Path
-from .storage import load_tasks, save_tasks, add_task, complete_task, delete_task
+
+from .storage import add_task, complete_task, delete_task, load_tasks, save_tasks
 
 
 def main():
